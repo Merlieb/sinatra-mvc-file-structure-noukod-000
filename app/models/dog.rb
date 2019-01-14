@@ -8,6 +8,6 @@ def initialize(name=nil, breed=nil, age)
 end
 
 def self.all
-  @all
+  @@all
 end
 end
