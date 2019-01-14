@@ -4,7 +4,10 @@ attr_accessor :name, :breed, :age
 def initialize(name=nil, breed=nil, age)
   @name = name
   @breed = breed
-  @age = age
-  
+  @age = age  
+end
+
+def self.all
+  @all
 end
 end
